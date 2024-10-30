@@ -1,0 +1,151 @@
+  /* Cinema banner */
+  .cinemabanner{
+   display: flex;
+   justify-content:center;
+   align-items:center;
+   width:100%;
+   margin: 0;
+}
+/* Cinema banner image */
+.cinemabanner img{
+   display: block;
+   margin: 0 auto;
+}
+/* h1 */
+h1 {
+   padding-left: 60px;
+}
+/*Vertical navigation */
+nav.verticalNavigation ul {
+   margin-left: 1em;
+   line-height: 2em;
+}
+
+nav.verticalNavigation a:link, 
+nav.verticalNavigation a:visited {
+   color: rgb(186, 186, 156);
+}
+
+nav.verticalNavigation a:hover, 
+nav.verticalNavigation a:active {
+   text-decoration: underline;
+}
+
+nav.verticalNavigation {
+   display: block;
+   float: left;
+   width: 100%;
+}
+.horizontalNavigation, .horizontalNavigation2, .verticalNavigation {
+   display: block; 
+   clear: both; 
+}
+/* content */
+.content {
+   display:none;
+}
+.content:target {
+   display:block;
+}
+/* Grid Images */
+.gridImages {
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap:5px;
+   width: 100%;
+   margin: 0;
+   padding-left: 0px;
+   padding-top: 5px;
+   row-gap: 50px;
+}
+.imageItem{
+   text-align: center;
+   text-decoration: none;
+}
+.imageItem img {
+   width: 200px;
+   height: 300px;
+   object-fit: cover;
+}
+body {
+   margin: 0;
+   padding: 0;
+}
+
+/* Horizontal Navigation 2 Styles */
+nav.horizontalNavigation2 li {
+   display: block;
+   float: left;
+   width: 25%;
+   
+}
+nav.horizontalNavigation2 a {
+   display: block;
+   text-align: center;
+   text-decoration: none;
+}
+nav.horizontalNavigation2 a {
+   background-color: rgb(223, 215, 120);
+   font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+   font-size: 1em;
+   line-height: 1.2em;
+   text-align: center;
+   padding: 1em;
+}
+nav.horizontalNavigation2 a:link, 
+nav.horizontalNavigation2 a:visited {
+  color: rgb(255, 255, 255);
+}
+nav.horizontalNavigation2 a:hover, 
+nav.horizontalNavigation2 a:active {
+   background-color: rgb(215, 184, 58);
+}   
+
+nav.horizontalNavigation2 ul {
+   padding-left: 50px;
+}
+
+/* Background Image */
+.backgroundimage {
+   width: 100%;
+   height: 350px;
+   background: url('curtain.png') no-repeat center center/cover;
+   position: relative;
+   margin: 0;
+   padding: 0;
+}
+
+/* Text Under Image */
+.textboxborder{
+   border: 2px solid grey;
+   padding: 5px;
+   text-align: center;
+   background-color: rgb(247, 251, 251);
+   width: 200px;
+   height: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   text-decoration: none;
+}
+
+/* Movie Images */
+.imageItem:hover img {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+.imageItem:hover .texboxborder {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  text-decoration: none;
+}
+
+.imageItem a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.imageItem a:hover{
+  text-decoration: none;
+  color: inherit;
+}
