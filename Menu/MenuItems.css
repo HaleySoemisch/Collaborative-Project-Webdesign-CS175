@@ -175,6 +175,12 @@ text-align: center;
   margin:15px;
 }
 
+h3{
+    padding:20px;
+    text-align: center;
+    width:80%;
+    font-size: 18pt;
+} 
 
 body {
     margin: 0;
