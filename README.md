@@ -1,16 +1,16 @@
 # Collaborative-Project-Webdesign-CS175
  We are building a cinema web project using HTML, CSS, and JavaScript. It features a homepage, showtimes, food and snacks options, and user authentication with login and registration pages. The project highlights interactive design and functionality for an enhanced user experience.
  
-# Bryce Bishop Work:
+# Bryce Bishop's Work:
 Home Page Link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/homepage/Homepage.html
 
-# Dhruval Anandkar Work: 
+# Dhruval Anandkar's Work: 
 Login Page Link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Loginpage/Login.html
 
 Registration Page Link: https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Registration-page/Registration.html
 
 
-# Haley Soemisch work:
+# Haley Soemisch's work:
  Cars page page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Showings/Cars.html
  
  Avengers Endgame page link: https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Showings/AvengersEndgame.html
@@ -45,7 +45,7 @@ Registration Page Link: https://dhruvalanandkar.github.io/Collaborative-Project-
  
  MazeRunner page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Showings/mazeRunner.html
 
-# Ashley Soemisch work:
+# Ashley Soemisch's work:
 Barq's page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/Barqs.html
 
 Blue Raspberry Icee page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/BlueRaspberryIcee.html
