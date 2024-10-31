@@ -1,0 +1,276 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(152, 42, 42);
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin-right: 100px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+.right-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+}
+
+.right-menu a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+main{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+
+.sizesContent {
+    display: flex;
+    justify-content: center; 
+     align-items: center; 
+    margin-top: 20px;
+    gap:20px;
+}
+
+
+.sizeImage {
+    margin-top: 20px;
+}
+
+.sizes {
+    display: none;
+}
+
+.sizeOptions {
+    display: flex;
+    flex-direction: column;
+max-width:600px;
+text-align: center; 
+  }
+
+
+.sizeOptions p, .sizeOptions h1{
+  text-align: center;
+  width:80%;
+  margin:0;
+}
+
+
+
+#smallSize:target,
+#mediumSize:target,
+#largeSize:target,
+#extraLargeSize:target,
+#oneSize:target {
+    display: flex;
+} 
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+    width:80%;
+    padding-left:85px;
+
+}
+
+.centerButton {
+    display: flex; 
+    justify-content: center;  
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+    width: 80%;
+    padding:0;
+  }
+
+  .drinkButton {
+    display: flex; 
+    justify-content: center;  
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+    width: 80%;
+    padding:0;
+  }
+
+.sizeButton {
+    background-color: #ffcc00;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    color: black;
+}
+
+.sizeButton:hover {
+    background-color: #ffd700;
+}
+
+.sizes img {
+    width: 300px;
+    height: 300px;
+}
+
+main h1 {
+  padding: 20px;
+text-align: center;
+  width:80%;
+  margin:0;
+}
+
+#description{
+  padding:20px;
+  text-align: left;
+  width:80%;
+  margin-top:20px;
+  margin:15px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+
+.topsection {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+.image img {
+    width: 150px;
+    height: auto;
+}
+
+
+.content {
+    width: 100%;
+}
+
+
+.content h1, .content h2 {
+    margin: 20px 0;
+}
+
+
+.content h1 {
+    text-align: center;
+}
+
+
+.content h2 {
+    align-items: left;
+    padding: 6px;
+}
+
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.table td {
+    border: none;
+    padding: 6px;
+    text-align: center;
+}
+
+
+.tabletwo {
+    table-layout: fixed;
+}
+
+
+.tableone td {
+    width: 25%;
+    font-size: 18pt;
+}
+
+
+.tabletwo td {
+    width: 8.9%;
+    font-size: 14px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+
+.underneathlabels {
+    font-size: 15px;
+    color: gray;
+    margin-top: 4px;
+}
+
+
