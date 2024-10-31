@@ -37,7 +37,7 @@ Login Page Link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdes
  
  Zootopia page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Showings/Zootopia.html
  
- MazeRunner page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-  CS175/Showings/mazeRunner.html
+ MazeRunner page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Showings/mazeRunner.html
 
 
 
