@@ -4,7 +4,7 @@
 # Dhruval Anandkar's Work: 
 Login Page Link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Loginpage/Login.html
 
-# Haley Soemisch & Ashley Soemisch's work:
+# Haley Soemisch work:
  Cars page page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Showings/Cars.html
  Avengers Endgame page link: https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Showings/AvengersEndgame.html
  Divergent page link: https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Showings/Divergent.html
