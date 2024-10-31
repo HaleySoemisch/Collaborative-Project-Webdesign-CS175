@@ -1,13 +1,14 @@
 # Collaborative-Project-Webdesign-CS175
  We are building a cinema web project using HTML, CSS, and JavaScript. It features a homepage, showtimes, food and snacks options, and user authentication with login and registration pages. The project highlights interactive design and functionality for an enhanced user experience.
  
+# Bryce Bishop Work:
+Home Page Link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/homepage/Homepage.html
+
 # Dhruval Anandkar Work: 
 Login Page Link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Loginpage/Login.html
 
 Registration Page Link: https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Registration-page/Registration.html
 
-# Bryce Bishop Work:
-Home Page Link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/homepage/Homepage.html
 
 # Haley Soemisch work:
  Cars page page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Showings/Cars.html
@@ -43,6 +44,63 @@ Home Page Link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesi
  Zootopia page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Showings/Zootopia.html
  
  MazeRunner page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Showings/mazeRunner.html
+
+# Ashley Soemisch work:
+Barq's page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/Barqs.html
+
+Blue Raspberry Icee page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/BlueRaspberryIcee.html
+
+Candy page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/Candy.html
+
+CherryIcee page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/CherryIcee.html
+
+CinemaMenu page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/CinemaMenu.html
+
+CinemaMenu page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/CinemaMenu.html
+
+Dots page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/Dots.html
+
+DrPepper  page link  : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/DrPepper.html
+
+Fanta  page link  : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/Fanta.html
+
+FountainDrinks  page link  : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/FountainDrinks.html
+
+Icees page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/Icees.html
+
+JuniorMints  page link  : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/JuniorMints.html
+
+M&M page link  : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/M&M.html
+
+MikeAndIke page link  : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/MikeAndIke.html
+
+MilkDuds page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/MilkDuds.html
+
+Nachos page link  : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/Nachos.html
+
+Pepsi page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/Pepsi.html
+
+Popcorn page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/Popcorn.html
+
+ReesesPieces page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/ReesesPieces.html
+
+Skittles page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/Skittles.html
+
+SourPatchKids page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/SourPatchKids.html
+
+Sprite page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/Sprite.html
+
+Twizzlers page link : https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Menu/Twizzlers.html
+
+
+
+
+
+
+
+
+
+
 
 
 
