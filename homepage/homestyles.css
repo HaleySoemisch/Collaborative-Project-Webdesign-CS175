@@ -1,0 +1,76 @@
+.highlight{
+    color: rgb(152, 42, 42);
+    font-size:x-large;
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    width: 100%
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.leftbanner{
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    justify-self: left;
+    padding: 10px;
+    align-items: center;
+}
+.rightbanner{
+    flex-direction: column;
+    display: flex;
+    width:20%;
+    justify-self: right;
+    padding: 10px;
+    align-items: center;
+    
+}
+.center{
+    width:60%;
+    display: flex;
+    padding: 10px;
+    justify-self: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    padding-top: 50px;
+    font-size: large;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 50px;
+    font-size: large;
+}
+.reviewer{
+    color: gray;
+
+}
+.title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 100px;
+    
+    
+    color: rgb(152, 42, 42);
+    margin-top: 30px;
+    font-size:xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: radial-gradient(white 75%,rgb(151, 93, 93)90%, rgb(152, 42, 42)100%);
+    box-shadow: 0px 2px 5px 8px rgba(0, 0, 0, 0.3);  }
+    
