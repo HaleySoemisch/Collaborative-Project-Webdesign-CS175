@@ -6,12 +6,18 @@
     <title>How to Train Your Dragon</title>
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="movies.css">
-    
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style>
 </head>
 <body>
    <header> 
         <div class="logo">REEL-IT CINEMA</div>
-
+        <img id="reel-icon" src="reelIcon.png" alt="Reel Icon">
         <nav>
           <a href="Homepage.html">Home</a>
           <a href="Showings.html">Showings</a>
@@ -53,7 +59,20 @@
         </p>
     </div>
     <br>
-    <h3>Ticket Price: $14.00</h3>
+    <div class="daySelection">
+        <label for="daySelect">Select Day:</label>
+        <select id="daySelect" onchange="updateTicketPrice()">
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+        </select>
+    </div>
+    <br>
+    <h3>Ticket Price: <span id="ticketPrice">$13.00</span></h3>
     <br>
     <h2>Showtimes</h2>
     <div class="showtimes">
