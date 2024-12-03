@@ -6,7 +6,13 @@
     <title>Avengers: Endgame</title>
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="movies.css">
-    
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style>
 </head>
 <body>
    <header> 
@@ -14,13 +20,14 @@
 
         <nav>
           <a href="Homepage.html">Home</a>
+          <img id="reel-icon" src="reelIcon.png" alt="Reel Icon">
           <a href="Showings.html">Showings</a>
           <a href="CinemaMenu.html">Menu</a>
         </nav>
         
         <div class="right-menu">
-          <a href="https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Registration-page/Registration.html">Register</a>
-          <a href="https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/Loginpage/Login.html">Login</a>
+          <a href="Registration.html">Register</a>
+          <a href="Login.html">Login</a>
         </div>
    </header>
    <br>
@@ -53,7 +60,20 @@
         </p>
     </div>
     <br>
-    <h3>Ticket Price: $12.00</h3>
+    <div class="daySelection">
+        <label for="daySelect">Select Day:</label> 
+        <select id="daySelect" onchange="updateTicketPrice()"> 
+            <option value="Monday">Monday</option> 
+            <option value="Tuesday">Tuesday</option> 
+            <option value="Wednesday">Wednesday</option> 
+            <option value="Thursday">Thursday</option> 
+            <option value="Friday">Friday</option> 
+            <option value="Saturday">Saturday</option> 
+            <option value="Sunday">Sunday</option> 
+        </select> 
+    </div> 
+    <br> 
+    <h3>Ticket Price: <span id="ticketPrice">$13.00</span></h3>
     <br>
     <h2>Showtimes</h2>
     <div class="showtimes">
