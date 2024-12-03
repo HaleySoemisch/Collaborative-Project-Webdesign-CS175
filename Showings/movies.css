@@ -1,3 +1,34 @@
+/* Font */
+.philosopher-regular {
+   font-family: "Philosopher", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ }
+ 
+ .philosopher-bold {
+   font-family: "Philosopher", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+ }
+ 
+ .philosopher-regular-italic {
+   font-family: "Philosopher", sans-serif;
+   font-weight: 400;
+   font-style: italic;
+ }
+ 
+ .philosopher-bold-italic {
+   font-family: "Philosopher", sans-serif;
+   font-weight: 700;
+   font-style: italic;
+ } 
+
+ body{
+   font-family: 'Philosopher', sans-serif;
+ }
+ select, option {
+   font-family: 'Philosopher', sans-serif;
+ }
 /* Movie Image */
 .movieImage img{
     width:300px; 
@@ -81,6 +112,14 @@
  .showtimes td {
     padding: 5px;
     border: 1px solid black;
+ }
+
+ /* Day Selection */
+
+ .daySelection {
+   margin-left: 420px;
+   margin-top: 20px;
+   margin-bottom: 20px;
  }
  
  /* Headers */
