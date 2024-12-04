@@ -1,23 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-fooditem="pepsi">
 <head>
     <meta charset="utf-8">
     <title>Pepsi</title>
     <link href="MenuItems.css" rel="stylesheet">
+    <link href="CorrectedHeader.css" rel="stylesheet">
+    <script src="menuItems.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style>
 </head>
 <body>
-    <header>
+    <header> 
         <div class="logo">REEL-IT CINEMA</div>
+        <img id="reel-icon" src="reelIcon.png" alt="Reel Icon">
         <nav>
-            <a href="Homepage.html">Home</a>
-            <a href="Showings.html">Showings</a>
-            <a href="CinemaMenu.html">Menu</a>
+          <a href="Homepage.html">Home</a>
+          <a href="Showings.html">Showings</a>
+          <a href="CinemaMenu.html">Menu</a>
         </nav>
+        
         <div class="right-menu">
-            <a href="Registration.html">Register</a>
-            <a href="Login.html">Login</a>
+          <a href="Registration.html">Register</a>
+          <a href="Login.html">Login</a>
         </div>
-    </header>
+   </header>
     <main>
         <div class="sizesContent">
              <div class="sizeImage" class="sizes">
@@ -34,13 +44,13 @@
             <div class="sizeOptions">
                 <h1>Pepsi</h1>
                 <div class="buttons drinkButton">
-                    <a href="#smallSize" class="sizeButton">Small</a>
-                    <a href="#mediumSize" class="sizeButton">Medium</a>
-                    <a href="#largeSize" class="sizeButton">Large</a>
+                    <a href="#smallSize" id="smallButton" class="sizeButton">Small</a>
+                    <a href="#mediumSize" id="mediumButton" class="sizeButton">Medium</a>
+                    <a href="#largeSize" id="largeButton" class="sizeButton">Large</a>
                 </div>
                 <p id="description">Carbonated soft drink with a cola flavor.
                     <br>
-                    <h3>$3.85 - $5.85</h3> 
+                    <h3 id="price">$3.85 - $5.85</h3> 
                 </p>
             </div>
           </div>
@@ -53,28 +63,28 @@
                 <h1 class="header">Nutritional Information</h1>
                 <hr>
                 <h2 class="header">Nutrition Summary</h2>
-                <table class="table tableone">
+                <table id="nutritionTable1" class="table tableone">
                     <tr>
-                        <td>155 Cal.<p class="underneathlabels">Calories</p></td>
-                        <td>0g<p class="underneathlabels">Protein</p></td>
-                        <td>38g<p class="underneathlabels">Total Carbs</p></td>
-                        <td>0.9g<p class="underneathlabels">Total Fat</p></td>
+                        <td id="calories">155 Cal.<p class="underneathlabels">Calories</p></td>
+                        <td id="protein">0g<p class="underneathlabels">Protein</p></td>
+                        <td id="carbs">38g<p class="underneathlabels">Total Carbs</p></td>
+                        <td id="fat">0.9g<p class="underneathlabels">Total Fat</p></td>
                     </tr>
                 </table>
-                <table class="table tabletwo">
+                <table id="nutritionTable2" class="table tabletwo">
                     <tr>
-                        <td>Saturated Fat: 0g</td>
-                        <td>Polyunsaturated Fat: 0g</td>
-                        <td>Monounsaturated Fat: 0g</td>
-                        <td>Cholesterol: 0mg</td>
-                        <td>Sodium: 9mg</td>
-                        <td>Dietary Fiber: 0g</td>
-                        <td>Sugars: 37g</td>
-                        <td>Vitamin D: 0mcg</td>
-                        <td>Calcium: 3.7mg</td>
-                        <td>Iron: 0.1mg</td>
-                        <td>Potassium: 18.5mg</td>
-                        <td>Caffeine: 33.3mg</td>
+                        <td id="saturatedFat">Saturated Fat: 0g</td>
+                        <td id="polyFat">Polyunsaturated Fat: 0g</td>
+                        <td id="monoFat">Monounsaturated Fat: 0g</td>
+                        <td id="cholesterol">Cholesterol: 0mg</td>
+                        <td id="sodium">Sodium: 9mg</td>
+                        <td id="fiber">Dietary Fiber: 0g</td>
+                        <td id="sugars">Sugars: 37g</td>
+                        <td id="vitaminD">Vitamin D: 0mcg</td>
+                        <td id="calcium">Calcium: 3.7mg</td>
+                        <td id="iron">Iron: 0.1mg</td>
+                        <td id="potassium">Potassium: 18.5mg</td>
+                        <td id="caffeine">Caffeine: 33.3mg</td>
                     </tr>
                 </table>
             </div>
