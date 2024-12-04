@@ -182,6 +182,7 @@ h3{
     font-size: 18pt;
 } 
 
+
 body {
     margin: 0;
     padding: 0;
@@ -237,6 +238,7 @@ body {
 .content h2 {
     align-items: left;
     padding: 6px;
+    
 }
 
 
@@ -279,4 +281,10 @@ body {
     margin-top: 4px;
 }
 
+#nutritionTable1 {
+    display: none;
+}
 
+#nutritionTable2 {
+    display: none;
+}
