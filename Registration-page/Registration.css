@@ -3,119 +3,134 @@
 
 @charset "utf-8";
 
-*{
-   margin:0;
-   padding:0;
-   box-sizing:border-box;
-}
-
-header{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   background-color: rgb(152, 42, 42);
-   border-bottom: 0px solid #ccc;
-   padding: 10px 20px;
-   position: sticky;
-   top: 0;
-   z-index: 1000;
-   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);  
-}
-
-.logo {
-   font-size: 28px;
-   font-weight: bold;
-   color: white;
-   margin-right: 100px;
- }
-
- nav {
-   display: flex;
-   gap: 20px;
-   padding: 15px;
- 
- }
-
-
- nav a {
-   text-decoration: none;
-   color: white;
-   font-size: 16px;
-   font-weight: bold;
-   transition: color 0.3s;
- }
-
- nav a:hover {
-   color: gray;
- }
-
- .right-menu {
-   display: flex;
-   align-items: center;
-   gap: 15px;
-   margin-left: auto;
- }
-
- .right-menu a {
-   color: white;
-   font-size: 14px;
-   text-decoration: none;
- }* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 116vh;
     margin: 0;
     background-color: #f8f8f8;
     flex-direction: column;
 }
 
-/* Header styling */
+/* 
+Header styling */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(152, 42, 42);
+    border-bottom: 1px solid #ccc;
     padding: 10px 20px;
     width: 100%;
     position: sticky;
     top: 0;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    
+.philosopher-regular {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .philosopher-bold {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .philosopher-regular-italic {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .philosopher-bold-italic {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  } 
+
 }
+
+
+
+/* header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(152, 42, 42);
+    border-bottom: 1px solid #ccc;
+    padding: 20px 30px;  
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    } */
 
 .logo {
-    font-size: 28px;
+    font-size: 40px;  
     font-weight: bold;
     color: white;
+    margin-right: 15px;  
+    display: flex;
+    align-items: center;
 }
 
-/* Navigation styling */
+#reel-icon {
+    margin-left: 10px;  
+    width: 65px;        
+    height: 65px;       
+}
+
 nav {
     display: flex;
     gap: 20px;
+    padding: 15px;
+    padding-left: 25px;
 }
 
 nav a {
     text-decoration: none;
-    color: white;
-    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;  
     font-weight: bold;
-    transition: color 0.3s;
+    transition: color 0.3s, background-color 0.3s;  
 }
 
 nav a:hover {
-    color: gray;
+    color: rgb(255, 255, 0); 
+    background-color: rgba(255, 255, 255, 0.2);  
 }
 
-/* Right menu styling */
 .right-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+}
+
+.right-menu a {
+    color: white;
+    font-size: 20px;  
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s;  
+}
+
+.right-menu a:hover {
+    color: rgb(255, 255, 0); 
+    background-color: rgba(255, 255, 255, 0.2);  
+}
+/* .right-menu {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -125,24 +140,42 @@ nav a:hover {
     color: white;
     font-size: 14px;
     text-decoration: none;
-}
+} */
+
+/* nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+} */
+
+/* nav a:hover {
+    color: gray;
+} */
+
+/* Right menu styling */
+
+
 
 /* Form container styling */
 .form-container {
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     padding: 20px;
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(224, 223, 215, 0.1);
     margin-top: 20px;
 }
 
 .form-container h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #e12222;
+    font-size: 26px;
+    font-weight: bolder;
+    color: #ff0000;
 }
 
 .form-container input[type="text"],
@@ -157,8 +190,18 @@ nav a:hover {
     font-size: 1em;
 }
 
+.form-container input[type="text"]:focus,
+.form-container input[type="email"]:focus,
+.form-container input[type="password"]:focus,
+.form-container input[type="tel"]:focus {
+    border-color: orange;
+    outline: none; /* Removes the default focus outline */
+    box-shadow: 0 0 5px rgba(255, 165, 0, 0.6); /* Optional glow effect */
+}
+
+
 .form-container label {
-    font-size: 0.9em;
+    font-size: 0.99em;
     color: #555;
 }
 
